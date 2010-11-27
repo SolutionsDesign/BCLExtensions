@@ -110,6 +110,7 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>copy /y "$(TargetPath)" "C:\Myprojects\VS.NET Projects\Algorithmia\ReferencedLibraries\"</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
 </Project>
