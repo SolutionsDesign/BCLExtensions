@@ -137,7 +137,7 @@ namespace SD.Tools.BCLExtensions.CollectionsRelated
 			while(left <= right)
 			{
 				// determine the index in the list to compare with. This is the middle of the segment we're searching in.
-				int index = left + (right - left) / 2; 
+				int index = left + (right - left) / 2;
 				int compareResult = comparer.Compare((T)sortedList[index], element);
 				if(compareResult == 0)
 				{
