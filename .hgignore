@@ -1,5 +1,0 @@
-glob:bin/*
-glob:*.suo
-glob:obj/*
-glob:*.bak
-glob:*.chm
