@@ -1,0 +1,33 @@
+﻿{
+    "name": "SD.Tools.BCLExtensions",
+    "version": "1.1.0-*",
+    "packOptions": {
+        "summary": "Extension methods for the .NET Base Class Library classes",
+        "description": "BCLExtensions is an extension method library for .NET 3.5 or higher which offers various extension methods for classes in the .NET Base Class Library (BCL). BCL Extensions is a small library which extends what is shipped with .NET 3.5 or higher. Please consult the Documentation for further details. BCL Extensions is used by LLBLGen Pro and the algorithm and data-structures library Algorithmia and has been used in production successfully since May 2010.",
+        "copyright": "Copyright (c) Solutions Design bv 2010-2016",
+        "projectUrl": "https://github.com/SolutionsDesign/BCLExtensions",
+        "licenseUrl": "https://github.com/SolutionsDesign/BCLExtensions/blob/master/LICENSE.txt",
+        "authors": [ "FransBouma" ],
+        "owners": [ "FransBouma", "SolutionsDesign" ],
+        "tags": [ "class", "library", "extension", "methods" ],
+        "requireLicenseAcceptance": false
+    },
+    "frameworks": {
+        "net35": {
+            "frameworkAssemblies": {
+                "System.Data": "2.0.0.0",
+                "System.Data.DataSetExtensions": "3.5.0.0"
+            }
+        },
+        "netstandard1.6": {
+            "imports": "dnxcore50",
+            "dependencies": {
+                "NETStandard.Library": "1.6.0",
+                "System.Data.Common": "4.1.0"
+            }
+        }
+    },
+    "buildOptions": {
+        "xmlDoc": true
+    }
+}
