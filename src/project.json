@@ -26,6 +26,7 @@
         }
     },
     "buildOptions": {
-        "xmlDoc": true
+        "xmlDoc": true,
+        "keyFile": "SD.Tools.BCLExtensions.snk"
     }
 }
