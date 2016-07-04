@@ -27,6 +27,7 @@
     },
     "buildOptions": {
         "xmlDoc": true,
-        "keyFile": "SD.Tools.BCLExtensions.snk"
+        "keyFile": "SD.Tools.BCLExtensions.snk",
+        "outputName": "SD.Tools.BCLExtensions"
     }
 }
