@@ -187,9 +187,9 @@ namespace SD.Tools.BCLExtensions.SystemRelated
 		private static bool IsGenericType(this Type type)
 		{
 #if (NETSTANDARD1_6)
-			return type.GetTypeInfo().IsValueType;
+			return type.GetTypeInfo().IsGenericType;
 #else
-			return type.IsValueType;
+			return type.IsGenericType;
 #endif
 		}
 		
