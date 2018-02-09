@@ -34,8 +34,8 @@
       <HintPath>..\packages\NUnit.3.4.1\lib\net45\nunit.framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="SD.Tools.BCLExtensions">
-      <HintPath>..\src\bin\Debug\net35\SD.Tools.BCLExtensions.dll</HintPath>
+    <Reference Include="SD.Tools.BCLExtensions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=a3f87088dcb994e1">
+      <HintPath>..\src\bin\Debug\net452\SD.Tools.BCLExtensions.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

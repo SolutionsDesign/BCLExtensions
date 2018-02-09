@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SD.Tools.BCLExtensions</id>
+    <version>1.2.1</version>
+    <authors>FransBouma</authors>
+    <owners>FransBouma,SolutionsDesign bv</owners>
+    <licenseUrl>https://github.com/SolutionsDesign/BCLExtensions/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/SolutionsDesign/BCLExtensions</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>BCLExtensions is an extension method library for .NET 4.5.2 or higher / .NET Standard 2.0 or higher which offers various extension methods for classes in the .NET Base Class Library (BCL). Please consult the Documentation for further details. BCL Extensions is used by LLBLGen Pro and the algorithm and data-structures library Algorithmia and has been used in production successfully since May 2010.</description>
+    <summary>Extension methods for the .NET Base Class Library classes</summary>
+    <copyright>Copyright (c) Solutions Design bv 2010-2018</copyright>
+    <tags>class,library,extension,methods</tags>
+	<language>en-US</language>
+  </metadata>
+  <files>
+	<file src="bin\release\net452\SD.Tools.BCLExtensions.dll" target="lib\net452\"/>
+	<file src="bin\release\net452\SD.Tools.BCLExtensions.xml" target="lib\net452\"/>
+	<file src="bin\release\netstandard2.0\SD.Tools.BCLExtensions.dll" target="lib\netstandard2.0\"/>
+	<file src="bin\release\netstandard2.0\SD.Tools.BCLExtensions.xml" target="lib\netstandard2.0\"/>
+  </files>
+</package>

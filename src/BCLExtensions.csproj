@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>BCLExtensions is an extension method library for .NET 4.5.2+ or higher or .NET Standard 2.0 or higher which offers various extension methods for classes in the .NET Base Class Library (BCL). Please consult the Documentation for further details. BCL Extensions is used by LLBLGen Pro and the algorithm and data-structures library Algorithmia and has been used in production successfully since May 2010.</Description>
+    <Copyright>Copyright (c) Solutions Design bv 2010-2018</Copyright>
+    <VersionPrefix>1.2.0</VersionPrefix>
+    <Authors>FransBouma</Authors>
+    <TargetFrameworks>net452;netstandard2.0</TargetFrameworks>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>SD.Tools.BCLExtensions</AssemblyName>
+    <AssemblyOriginatorKeyFile>SD.Tools.BCLExtensions.snk</AssemblyOriginatorKeyFile>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <SignAssembly>true</SignAssembly>
+    <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
+    <PackageId>SD.Tools.BCLExtensions</PackageId>
+    <PackageTags>extension methods BCL</PackageTags>
+    <PackageProjectUrl>https://github.com/SolutionsDesign/BCLExtensions</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/SolutionsDesign/BCLExtensions/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\SD.Tools.BCLExtensions.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="obj" />
+    <Compile Remove="bin" />
+  </ItemGroup>
+</Project>
