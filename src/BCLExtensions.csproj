@@ -26,6 +26,7 @@
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\SD.Tools.BCLExtensions.xml</DocumentationFile>
+	  <Summary>Bla</Summary>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="obj" />

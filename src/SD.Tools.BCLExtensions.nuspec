@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>SD.Tools.BCLExtensions</id>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
     <authors>FransBouma</authors>
     <owners>FransBouma,SolutionsDesign bv</owners>
     <licenseUrl>https://github.com/SolutionsDesign/BCLExtensions/blob/master/LICENSE.txt</licenseUrl>

@@ -76,7 +76,15 @@ namespace SD.Tools.BCLExtensions.DataRelated
 					}
 					else
 					{
-						toReturn = (TValue)Convert.ChangeType(columnValue, destinationType);
+						try
+						{
+							toReturn = (TValue)Convert.ChangeType(columnValue, destinationType);
+						}
+						catch
+						{
+							// conversion failed for some reason, not compatible. return null
+							toReturn = default(TValue);
+						}
 					}
 				}
 			}
